@@ -25,7 +25,7 @@ let p2Value = P2_FORWARD;
 
 const makeASpiral = () => {
     //make spiral
-    for (let i = 0; i < steps; i++) {
+    for (let i = 1; i <= steps; i++) {
         //output
         pins.servoWritePin(AnalogPin.P1, p1Value);
         pins.servoWritePin(AnalogPin.P2, p2Value);
